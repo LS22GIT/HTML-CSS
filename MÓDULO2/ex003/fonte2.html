@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando Fontes externas baixadas</title>
+    <style>
+        @font-face {
+            font-family: 'fontes/Segoe UI.ttf';
+            src: url('fontes/Segoe UI.ttf');
+        }
+        @font-face {
+            font-family:'fontes/cali' ; 
+            src: url('fontes/CALIFORNIA PERSONAL USE.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body{
+            font-family:'fontes/cali', Arial, Helvetica, sans-serif;
+        }
+        p{
+            font-family: 'fontes/Segoe UI', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Usando fontes externas baixadas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus rem vero debitis eaque officiis repudiandae similique amet quod labore unde deserunt, ipsum nesciunt quos deleniti, quae modi harum voluptate illo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, cupiditate nemo animi, ad excepturi voluptate illum iusto molestiae ipsum velit nobis? Aperiam maiores iusto impedit quam est laboriosam, facilis id?</p>
+    <p style="font-family: 'fontes/cali';font-size: 50px;">CALIFORNIA Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias voluptas delectus nobis itaque corporis, id, qui explicabo quia, odio quaerat debitis. Corporis laborum repellendus suscipit, perspiciatis optio distinctio qui ut? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nulla iure quibusdam, voluptatum aut ullam, sunt corporis laborum atque quisquam deleniti, rem optio consectetur tenetur. Autem magnam unde at officia?</p>
+    
+</body>
+</html>

@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+* {font-family: 'Monoton', cursive; font-size: 20px;}
+    
+body {
+
+
+    background-image: linear-gradient(to right, #F06BF2,#7630D9,#79F2E6);
+}
+main {background-color: white;
+    border-radius: 20px;
+width: 600px;
+padding: 60px;
+box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.466);
+margin: auto;}
+p {
+    text-align: justify;
+}
+h1 {color: #04588C; text-shadow: 1px 1px 2px  #033250d3;
+
+}
+h2 { color: #532473; font-family: Arial, Helvetica, sans-serif; font-size: 20px;
+    
+}
