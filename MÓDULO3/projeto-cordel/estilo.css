@@ -14,7 +14,7 @@
 }
 header{
     background-color: black;
-    color: white;
+    color: rgb(255, 250, 223);
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -40,28 +40,29 @@ div>pre{
     font-size: 3.7vw;
 }
 #branco{
-    background-color: white;
-    padding-bottom: 200px;
-    padding-top: 100px;
+    background-color: rgb(255, 250, 223);
+    padding-bottom: 10vh;
+    padding-top: 10vh;
 }
 #imagem1{
     background-image: url('IMAGENS/background001.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center right;
+    background-position: center center;
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 100px;
     line-height: 4em;
+    box-shadow: inset 6px 5px 13px;
 
 }
 #imagem1>pre{
     background-color: rgba(0, 0, 0, 0.514);
     color: white;
-    width: 37%;
+    display: inline-block;
     margin-left: 30px;
     font-size: 3vw;
-    font-weight: 500;
+    padding: 5px;
     text-shadow: 1px 1px 3px black;
 }
 #imagem2{
@@ -72,12 +73,14 @@ div>pre{
     padding-top: 100px;
     padding-bottom: 100px;
     line-height: 4em;
+    box-shadow: inset 6px 5px 13px;
 
 }
 #imagem2>pre{
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.514);
     color: white;
-    width: 43.5%;
+    padding: 5px;
     margin-left: 30px;
     font-size: 3.5vw;
     font-weight: 500;
@@ -90,4 +93,12 @@ footer{
     text-align: center;
     font-size: 2.5vw;
     padding-top: 10px;
+}
+footer>p>a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer>p>a:hover{
+    text-decoration: underline;
 }
