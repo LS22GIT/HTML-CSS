@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes favoritos</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 500px;
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        caption{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de tabelas</h1>
+    <table>
+        <caption>Filmes Favoritos</caption>
+        <tr>
+            <th scope="col">Grupos</th>
+            <th scope="col">Nomes</th>
+            <th colspan="3" scope="colgroup">Filmes</th>
+        </tr>
+        <tr>
+            <th rowspan="3" scope="rowgroup">Mulheres</th>
+            <td>Ana Maria</td>
+            <td>Barbie</td>
+            <td>Frozen</td>
+            <td>Moana</td>
+        </tr>
+        <tr>
+        <td>Rafaela Silva</td>
+        <td>Shrek</td>
+        <td>Hulk</td>
+        <td>Matrix</td>
+        </tr>
+        <tr>
+          <td>Claúdia Melo</td>
+          <td>Star War</td>
+          <td>Toy story 2</td>
+          <td>Homem-Aranha</td>  
+        </tr>
+        <tr>
+            <th rowspan="3" scope="rowgroup">Homens</th>
+            <td>Celso de Paula</td>
+            <td>Seven</td>
+            <td>Django Livre</td>
+            <td>Titanic</td>
+        </tr>
+        <tr>
+            <td>Lucas dos Santos</td>
+            <td>Pulp fiction</td>
+            <td>Trem bala</td>
+            <td>A origem</td>
+        </tr>
+        <tr>
+            <td>Raphael dos Santos</td>
+            <td>Corra</td>
+            <td>Carros</td>
+            <td>O procurado</td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
