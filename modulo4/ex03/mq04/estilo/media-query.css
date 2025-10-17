@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* todas as demais midias */
+/* Typical Device Breakpoint
+
+  Celular : 320px ate 480px.
+  iPads, Tablets : 481px ate 768px.
+  Pequenas telas: 769px ate 1024px.
+  Desktops e grandes telas:  1025px ate 1200px.
+  Extra large screens, TV :acima de 1200px.
+
+*/
+@media print {
+    body{
+        font-family: 'Courier New', Courier,s monospace;
+        
+    }
+    main>h1{
+        color: black;
+        text-shadow: none;
+    }
+    img#tablet{display: none;}
+        img#fone{display: none;}
+        img#print{display: block;}
+        img#tv{display: none;}
+        img#pc{display: none;}
+    
+}
+@media screen and (min-width:600px) and (max-width:992px){
+    /* Tablet */
+    body{
+        background-image: url(../imagens/back-tablet.jpg);}
+        img#tablet{display: block;}
+        img#fone{display: none;}
+        img#print{display: none;}
+        img#tv{display: none;}
+        img#pc{display: none;}
+    }
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body{
+        background-image: url(../imagens/back-pc.jpg);}
+        img#tablet{display: none;}
+        img#fone{display: none;}
+        img#print{display: none;}
+        img#tv{display: none;}
+        img#pc{display: block;}
+
+    }
+@media screen and (min-width: 1201px) {
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    img#tablet{display: none;}
+        img#fone{display: none;}
+        img#print{display: none;}
+        img#tv{display: block;}
+        img#pc{display: none;}
+    
+    
+}
+@media screen min {
+    
+}
