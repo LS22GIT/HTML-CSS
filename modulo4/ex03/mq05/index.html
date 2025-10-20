@@ -41,23 +41,31 @@ menu
 
         </p>
     </main>
-    <script>
-    function mudoutamanho(){
-        if(window.innerWidth >=768){
-            itens.style.display = 'block'
-        } else {
-            itens.style.display = 'none'
-        }
+<script>
+function mudoutamanho() {
+    var itens = document.getElementById('itens');
+    if (window.innerWidth >= 768) {
+        itens.style.display = 'block';
+    } else {
+        itens.style.display = 'none';
     }
-    function clickmenu(){
-        if (itens.style.display== 'block'){
-            itens.style.display= 'none'
-        }
-        else{ 
-            itens.style.display='block'
-        }
-    }    
-    
-    </script>
+}
+
+function clickmenu() {
+    var itens = document.getElementById('itens');
+    if (itens.style.display == 'block') {
+        itens.style.display = 'none';
+    } else {
+        itens.style.display = 'block';
+    }
+}
+
+// chama sempre que a janela muda de tamanho
+window.addEventListener('resize', mudoutamanho);
+
+// chama uma vez quando a página carrega
+window.addEventListener('load', mudoutamanho);
+</script>
+
 </body>
 </html>
