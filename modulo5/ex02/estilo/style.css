@@ -1,0 +1,61 @@
+@charset "utf-8";
+@media screen and (min-width:800px) {
+    header>h1{
+        min-width: 800px ;
+    }
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    background-color: lightgray;
+}
+header{
+    background-color: rgba(128, 128, 128, 0.705);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+header>h1{
+    text-shadow: 1px 1px 3px black; 
+    flex: auto;   
+}
+header>nav>a{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+header>nav{
+    margin: 5px;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: flex-end;
+    flex-flow:row nowrap;
+    display: flex;
+    padding: 10px;
+
+}
+header>nav>a:hover{
+    background-color: white;
+    color: black;
+}
+article{
+    background-color: white;
+    width: 70vw;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 3px rgb(82, 82, 82);
+    text-align: justify;
+}
+
